@@ -1,0 +1,60 @@
+.hero_info{
+    display: flex;
+    margin-top: 147px;
+    gap: 49px;
+}
+.hero_text{
+    width: 450px;
+    padding-top: 152px;
+}
+.section_title{
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    
+}
+
+.hero_paragraph{
+    margin-top: 20px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+.download_btn{
+    width: 164px;
+    height: 48px;
+    margin-top: 39px;
+}
+
+@media screen and (min-width:1600px) and (max-width: 3000px){
+    .hero_info{
+        justify-content: center;
+    }
+    .hero_paragraph{
+        font-size: 25px;
+    }
+    .hero_text>.section_title{
+        font-size: 50px;
+    }
+    .hero_text{
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .hero_info{
+        justify-content: center;
+        margin-top: 80px;
+    }
+    .hero_image{
+        display: none;
+    }
+    .hero_text{
+        text-align: center;
+        padding-top: 0px;
+    }
+}

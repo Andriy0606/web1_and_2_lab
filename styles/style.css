@@ -1,0 +1,41 @@
+@import url(header.css);
+@import url(hero.css);
+@import url(testimonials.css);
+@import url(tranding.css);
+@import url(footer.css);
+
+*{
+    margin: 0px;
+
+}
+
+.container{
+    padding: 0px 197px;
+}
+
+@media screen and (max-width: 1260px){
+    header,.container{
+        padding: 0px 100px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .section_title{
+        text-align: center;
+    }
+}
+
+/*hero section*/
+/*header*/
+
+
+/*Hero section*/
+
+
+/*Testimonials section*/
+
+
+/*Tranding section*/
+
+
+/*footer*/
